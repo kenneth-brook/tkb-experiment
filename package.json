@@ -1,0 +1,24 @@
+{
+  "name": "tkb-experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wombat1972/tkb-experiment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wombat1972/tkb-experiment/issues"
+  },
+  "homepage": "https://github.com/wombat1972/tkb-experiment#readme",
+  "dependencies": {
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
