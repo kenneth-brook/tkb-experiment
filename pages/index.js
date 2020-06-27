@@ -3,10 +3,20 @@ import Layout from "../components/Layout";
 import clientConfig from "../client-config";
 
 import fetch from "isomorphic-unfetch";
+import Product from "../components/Products";
 
 const Index = (props) => {
   console.warn(props);
-  return <Layout>Hello World!</Layout>;
+
+  const { products } = props;
+
+  return (
+    <Layout>
+      {products.length
+        ? products.map((product) => <Product product={product} />)
+        : ""}
+    </Layout>
+  );
 };
 
 Index.getInitialProps = async () => {
