@@ -1,0 +1,16 @@
+.product-container {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product-card {
+  min-width: 22%;
+  margin-top: 15px;
+}
+
+img {
+  max-height: 250px;
+}
