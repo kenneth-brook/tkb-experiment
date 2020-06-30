@@ -10,12 +10,12 @@ const Nav = () => {
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-              Features
+              Catagories
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-              Pricing
+              My Account
             </a>
           </li>
           <li className="nav-item">
